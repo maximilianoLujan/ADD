@@ -4,7 +4,7 @@ date: 2024-11-12
 decision-makers: ["Lujan Maximiliano - ASS", "Ciano Ignacio - ASJ", "Lujan Nicolas - ASC"]
 ---
 
-# Decisión sobre la Arquitectura de Referencia para la Migración a Microservicios
+# Decisión sobre la Arquitectura para la Migración a Microservicios
 
 ## Context and Problem Statement
 
