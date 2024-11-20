@@ -1,6 +1,6 @@
 ---
 status: "proposed"
-date: 2024-11-16
+date: 2024-11-17
 decision-makers: ["Lujan Maximiliano - ASS", "Ciano Ignacio - ASJ", "Lujan Nicolas - ASC"]
 ---
 

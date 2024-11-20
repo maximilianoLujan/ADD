@@ -1,2 +1,5 @@
 # ADD
-dedicated repository for storing ADD process in a system for a food products company
+Repositorio dedicado a la captura de requerimientos y decisiones de la arquitectura de un sistema para una
+compañía de productos alimenticios
+
+
