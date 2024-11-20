@@ -42,7 +42,7 @@ y los [requerimientos no funcionales](./docs/requirements/no-functional-requirem
 
 ---
 
-## Iteración 5: Deployment
+## Iteración 4: Deployment
 **Descripción**: En esta iteración, se estableció el proceso de despliegue de la aplicación para garantizar que las nuevas versiones sean desplegadas de manera eficiente y sin interrupciones. Tambien poder soportar picos de carga.
 
 **Decisiones clave**:
