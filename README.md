@@ -11,9 +11,11 @@ y los [requerimientos no funcionales](./docs/requirements/no-functional-requirem
 **Decisiones clave**:
 - **Arquitectura de microservicios**: Se decidió usar una arquitectura de microservicios para separar las distintas funcionalidades del sistema.
 - **API RESTful**: La comunicación entre los servicios se realizó a través de APIs RESTful, lo que facilita la integración de nuevos servicios y escalabilidad.
+- **Circuit Breaker**: Se decidió implementar el patron Circuit Breaker en la comunicación entre microservicios para mejorar la tolerancia a fallos del sistema.
 
 **Enlace al ADR**:
 - [ADR-0001: Eleccion de Arquitectura](./docs/decisions/ADR-0001-EleccionDeArquitectura.md)
+- [ADR-0007: Implementacion del patrón Circuit Breaker](./docs/decisions/ADR-0007-CircuitBreaker.md)
 - [Diagrama](./docs/diagrams/ADR-0001-Microservices.PNG)
 
 ---
