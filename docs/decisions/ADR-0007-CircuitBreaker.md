@@ -8,7 +8,7 @@ decision-makers: ["Lujan Maximiliano - ASS", "Ciano Ignacio - ASJ", "Lujan Nicol
 
 ## Context and Problem Statement
 
-En la arquitectura basada en microservicios, la comunicación entre servicios es esencial. Sin embargo, los microservicios de Pagos y Reparto tienen interacciones críticas con sistemas externos y entre ellos. Estos sistemas externos y microservicios pueden experimentar fallos, lo que podría comprometer la estabilidad de todo el sistema.
+En la arquitectura basada en microservicios, la comunicación entre servicios es esencial. Sin embargo, el microservicio de pagos tiene interacciones críticas con sistemas externos y entre ellos. Estos sistemas externos y microservicios pueden experimentar fallos, lo que podría comprometer la estabilidad de todo el sistema.
 
 Para evitar que un fallo en un servicio crítico genere un efecto en cascada que impacte en otros microservicios, es necesario implementar un mecanismo que permita identificar y manejar estos fallos de manera controlada.
 
@@ -28,7 +28,7 @@ Para evitar que un fallo en un servicio crítico genere un efecto en cascada que
 
 **Chosen Option:** Implementar el patrón Circuit Breaker en las llamadas HTTP entre microservicios críticos.  
 
-El patrón Circuit Breaker monitorea las conexiones a servicios externos (como Mercado Libre) y a microservicios internos, como Pagos y Reparto. Si nota muchos errores en poco tiempo, detiene temporalmente las conexiones, evitando más problemas y permitiendo que el sistema reduzca sus funciones de forma controlada.
+El patrón Circuit Breaker monitorea las conexiones a servicios externos (como Mercado Libre) y entre microservicios internos, como Pagos y Pedidos. Si nota muchos errores en poco tiempo, detiene temporalmente las conexiones, evitando más problemas y permitiendo que el sistema reduzca sus funciones de forma controlada.
 
 ### Consequences
 
